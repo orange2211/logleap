@@ -1,5 +1,5 @@
 {
-  "description": "LogLeap: A professional-grade browser-based log analyzer with dynamic field discovery, time-series visualization, and AI-powered log explanation via Gemini.",
+  "description": "LogPeep: A nimble, browser-based log viewer with dynamic field discovery and AI-assisted explanation.",
   "requestFramePermissions": [],
-  "name": "LogLeap"
+  "name": "LogPeep"
 }

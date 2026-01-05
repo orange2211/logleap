@@ -1,20 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 轻阅 (LogPeep) - Lightweight Log Viewer
 
-# Run and deploy your AI Studio app
+[English](#english) | [中文](#chinese)
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1wTdlj0lw2DSILxoeIxr7k7MikCwDy9Us
+<a name="english"></a>
+## English
 
-## Run Locally
+**LogPeep** (轻阅) is a lightweight, browser-based log viewer designed for quick log inspection, simple visualization, and AI-assisted debugging.
 
-**Prerequisites:**  Node.js
+### 🚀 Highlights
+- **Nimble & Fast**: Built with virtualization to handle large files smoothly in your browser.
+- **Smart Peeking**: Integrated with **Gemini AI** for quick log explanations and troubleshooting tips.
+- **Field Discovery**: Automatically identifies keys from JSON logs for dynamic table layout.
+- **Visual Trends**: Instant traffic histograms to spot spikes or errors.
+- **Privacy Centric**: All processing happens on your machine.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+<a name="chinese"></a>
+## 中文
+
+**轻阅 (LogPeep)** 是一款轻量级的浏览器端日志查看器，旨在提供极速的日志浏览、简易的可视化以及 AI 辅助排错体验。
+
+### 🚀 核心亮点
+- **轻灵极速**: 采用虚拟滚动技术，在浏览器内流畅处理大规模日志。
+- **智能简析**: 集成 **Gemini AI**，提供快速的日志原理解析与排查建议。
+- **动态列显**: 自动识别 JSON 日志字段，动态定制表格布局。
+- **趋势概览**: 瞬时流量直方图，直观发现错误高峰。
+- **隐私无忧**: 所有处理均在本地完成，日志不上传。
+
+---
+
+## License
+MIT License.
