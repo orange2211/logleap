@@ -6,19 +6,22 @@
     <title>轻阅 (LogPeep) - 轻量级日志查看器</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
-        
         body {
-            font-family: 'Inter', "Microsoft YaHei", "PingFang SC", sans-serif;
+            /* 现代系统字体栈：优先使用系统原生字体，包含对 macOS, Windows 和 Linux 的深度优化 */
+            /* 同时也包含了对阿里巴巴普惠体 (Alibaba PuHuiTi) 的显式支持 */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Alibaba PuHuiTi", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
             background-color: #0f172a;
             color: #e2e8f0;
             margin: 0;
             height: 100vh;
             overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
         .mono {
-            font-family: 'Fira Code', "Consolas", monospace;
+            /* 现代等宽字体栈：优先使用系统内置的开发者字体 */
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", "Alibaba PuHuiTi Mono", monospace;
         }
 
         ::-webkit-scrollbar {
